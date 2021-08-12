@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-09T16:13:17 IST" name="Suite" finished-at="2021-08-09T16:14:10 IST" duration-ms="52802">
+    <groups>
+    </groups>
+    <test started-at="2021-08-09T16:13:17 IST" name="Test" finished-at="2021-08-09T16:14:10 IST" duration-ms="52802">
+      <class name="com.incident.testcases.CreateNewIncident">
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.incident.testcases.CreateNewIncident@3ee37e5a]" started-at="2021-08-09T16:13:19 IST" name="login" finished-at="2021-08-09T16:13:30 IST" duration-ms="11739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dev113545.service-now.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[m3GkKEKU8atr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createIncident(java.lang.String,java.lang.String)[pri:0, instance:com.incident.testcases.CreateNewIncident@3ee37e5a]" started-at="2021-08-09T16:13:30 IST" name="createIncident" data-provider="dataForCreate" finished-at="2021-08-09T16:13:41 IST" duration-ms="10612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Incident]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Creating incident for First Testcase]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.incident.testcases.CreateNewIncident@3ee37e5a]" started-at="2021-08-09T16:13:41 IST" name="tearDown" finished-at="2021-08-09T16:13:45 IST" duration-ms="4183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.incident.testcases.CreateNewIncident@3ee37e5a]" started-at="2021-08-09T16:13:45 IST" name="login" finished-at="2021-08-09T16:13:56 IST" duration-ms="10703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://dev113545.service-now.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[m3GkKEKU8atr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createIncident(java.lang.String,java.lang.String)[pri:0, instance:com.incident.testcases.CreateNewIncident@3ee37e5a]" started-at="2021-08-09T16:13:56 IST" name="createIncident" data-provider="dataForCreate" finished-at="2021-08-09T16:14:06 IST" duration-ms="10092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Incident]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Creating incident for Second Testcase]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.incident.testcases.CreateNewIncident@3ee37e5a]" started-at="2021-08-09T16:14:06 IST" name="tearDown" finished-at="2021-08-09T16:14:10 IST" duration-ms="4141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.incident.testcases.CreateNewIncident -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

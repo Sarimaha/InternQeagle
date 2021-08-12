@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="password" value="m3GkKEKU8atr"/>
+  <parameter name="url" value="https://dev113545.service-now.com/"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="5" name="Test(failed)" verbose="2">
+    <classes>
+      <class name="com.incident.testcases.CreateNewIncident">
+        <methods>
+          <include name="createIncident"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.incident.testcases.CreateNewIncident -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
